@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Score-Keeper</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <script>
+            let India = 0;
+            let Pakisthan = 0;
+            function incIndia(){
+                India++;
+                document.getElementById("score-india").innerHTML=India;
+            }
+            function decIndia(){
+                India--;
+                document.getElementById("score-india").innerHTML = India;
+            }
+            function incPakisthan(){
+                Pakisthan++;
+                document.getElementById("score-pakisthan").innerHTML = Pakisthan;
+            }
+            function decPakisthan(){
+                Pakisthan--;
+                document.getElementById("score-pakisthan").innerHTML = Pakisthan;
+            }
+            function reset(){
+                India=0;
+                Pakisthan=0;
+                document.getElementById("score-india").innerHTML = India;
+                document.getElementById("score-pakisthan").innerHTML = Pakisthan;
+            }
+
+           
+        </script>
+    </head>
+    <body>
+        <div class="app-title-container">
+        <h1 class="app-title">⚽Score Keeper⚽</h1>
+        </div>
+        <div class="team-card-container">
+            <div class="team-card">
+                <h2 class="team-card-title">TEAM-INDIA</h2>
+                <p class="team-score" id="score-india">0</p>
+                <div class="score-card-button-container">
+                    <span class="score-card-button" onClick="incIndia()">👍</span>
+                    <span class="score-card-button" onClick="decIndia()">👎</span>
+                </div>
+             </div>
+            
+             <div class="team-card">
+              <h2 class="team-card-title"> Team-PAKISTHAN</h2>
+              <p class="team-score" id="score-pakisthan">0</p>
+              <div class="score-card-button-container">
+                <span class="score-card-button" onClick="incPakisthan()">👍</span>
+                <span class="score-card-button" onClick="decPakisthan()">👎</span>
+            
+        </div>
+            </div>
+           
+            
+        </div>
+        <div class="reset-btn-container">
+            <button class="btn-reset" onClick="reset()">Reset</button>
+        </div>
+       
+    </body>
+    
+</html>

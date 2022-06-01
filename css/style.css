@@ -1,0 +1,110 @@
+body{
+   background-image: url("https://media.istockphoto.com/vectors/soccer-football-stadium-vector-background-vector-id687422528?k=6&m=687422528&s=170667a&w=0&h=EmsVL3tOeXchtZZd_yH4lrHDs7oxyot0z0wSu04X6Is=");
+   background-size: 1300px;
+   background-position-y: center;
+   background-repeat: no-repeat;
+
+
+
+    
+   
+}
+.app-title{
+    text-align:center;
+    color:white;
+    font-size: 50px;
+    padding: 2px;
+}
+.app-title-container{
+    background: radial-gradient(circle, rgb(1, 12, 2) 0%, rgb(17, 159, 248) 100%);
+    color: white;
+    border-radius: 30px;
+    border: px solid  rgb(201, 253, 13);
+    box-shadow: 4px 4px 4px 4px rgb(174, 174, 206);
+}
+.team-card-container{
+    display: flex;
+    justify-content:space-around;
+    opacity: 80%;
+    
+    
+   
+}
+.team-card{
+    margin: 20px;
+    width: 300px;
+    border: 1px solid greenyellow;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(33, 135, 64), rgb(182, 105, 184) 100%);
+    border-radius: 40px;
+     height: 300px;
+
+}
+.team-card:hover{
+    box-shadow: 2px 0px 10px rgb(9, 10, 10);
+    border: none;
+}
+.team-card-title{
+    text-align: center;
+    border-radius: 20px;
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #38f812 0%, #0b3ef7 100%);
+    
+
+}
+.team-score{
+    text-align: center;
+    font-size: 100px;
+    margin: 0px;
+}
+.score-card-button{
+    font-size: 50px;
+}
+.score-card-button-container{
+    display: flex;
+    justify-content: space-around;
+   
+}
+.score-card-button{
+    
+    border-radius: 50%;
+   font-size: 35px;
+   padding: 2px;
+   margin-top: 30px;
+   box-shadow: 1px 1px 8px 0px #acf947;
+   border: 2px solid  #acf947;
+   cursor: pointer;
+   background-color: black
+   
+}
+.score-card-button:hover{
+    box-shadow: 1px 1px 8px 0px #f94788;
+    border: 1px solid #f94788;
+    
+
+}
+.reset-btn-container{
+    display: flex;
+    justify-content: center;
+    
+    
+}
+.btn-reset{
+    padding: 3px;
+    height: 35px;
+    width: 200px;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 15px;
+    box-shadow: 4px 0px 10px rgb(195, 255, 0);
+    border: 1px solid rgb(195, 255, 0);
+    cursor: pointer;
+    background: rgb(12, 12, 12);
+    color: white;
+    
+}
+.btn-reset:hover{
+    box-shadow: 4px 0px 10px #f94788;
+    border: 1px solid #f94788;
+
+}
